@@ -11,7 +11,6 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 #from operator import itemgetter
-from langchain_core.prompts import PromptTemplate
 #from langchain_community.tools.sql_database.tool import QuerySQLDataBaseTool
 from sqlalchemy import create_engine
 from langchain_core.tools import tool
