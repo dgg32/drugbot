@@ -15,6 +15,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from sqlalchemy import create_engine
 from langchain_core.tools import tool
 from langchain_core.prompts import FewShotPromptTemplate
+from langchain_core.prompts import PromptTemplate
+
 from langchain.chains import create_sql_query_chain
 #from langchain_core.messages import AIMessage
 # from langchain_core.runnables import (
